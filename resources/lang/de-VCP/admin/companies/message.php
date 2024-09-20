@@ -1,20 +1,20 @@
 <?php
 
 return [
-    'does_not_exist' => 'Company does not exist.',
-    'deleted'        => 'Deleted company',
-    'assoc_users'    => 'This company is currently associated with at least one model and cannot be deleted. Please update your models to no longer reference this company and try again. ',
+    'does_not_exist' => 'Firma existiert nicht.',
+    'deleted'        => 'Gelöschte Firma',
+    'assoc_users'    => 'Diese Firma ist mit mindestens einem Modell verknüpft und kann nicht gelöscht werden. Bitte ändern Sie die Modelle um die Verknüpfung zu lösen, und versuchen Sie es erneut. ',
     'create' => [
-        'error'   => 'Company was not created, please try again.',
-        'success' => 'Company created successfully.',
+        'error'   => 'Firma wurde nicht erstellt, bitte versuchen Sie es noch einmal.',
+        'success' => 'Firma wurde erfolgreich angelegt.',
     ],
     'update' => [
-        'error'   => 'Company was not updated, please try again',
-        'success' => 'Company updated successfully.',
+        'error'   => 'Firma wurde nicht aktualisiert, bitte versuchen Sie es erneut',
+        'success' => 'Firma erfolgreich aktualisiert.',
     ],
     'delete' => [
-        'confirm' => 'Are you sure you wish to delete this company?',
-        'error'   => 'There was an issue deleting the company. Please try again.',
-        'success' => 'The Company was deleted successfully.',
+        'confirm' => 'Sind Sie sich sicher, dass Sie diese Firma löschen wollen?',
+        'error'   => 'Es gab ein Problem beim Löschen der Firma. Bitte versuchen Sie es erneut.',
+        'success' => 'Die Firma wurde erfolgreich gelöscht.',
     ],
 ];
