@@ -2,45 +2,45 @@
 
 return array(
 
-    'account_already_exists' => 'An account with the this email already exists.',
-    'account_not_found'      => 'The username or password is incorrect.',
-    'account_not_activated'  => 'This user account is not activated.',
-    'account_suspended'      => 'This user account is suspended.',
-    'account_banned'         => 'This user account is banned.',
-    'throttle'               => 'Too many failed login attempts. Please try again in :minutes minutes.',
+    'account_already_exists' => 'Ein Konto mit dieser Email-Adresse existiert bereits.',
+    'account_not_found'      => 'Benutzername oder Passwort sind nicht korrekt.',
+    'account_not_activated'  => 'Das Benutzerkonto ist nicht aktiviert.',
+    'account_suspended'      => 'Dieses Benutzerkonto ist gesperrt.',
+    'account_banned'         => 'Dieses Benutzerkonto wurde ausgeschlossen.',
+    'throttle'               => 'Zu viele fehlgeschlagene Anmeldeversuche. Bitte versuchen Sie es in :minutes Minuten erneut.',
 
     'two_factor' => array(
-        'already_enrolled'      => 'Your device is already enrolled.',
-        'success'               => 'You have successfully logged in.',
-        'code_required'         => 'Two-factor code is required.',
-        'invalid_code'          => 'Two-factor code is invalid.',
-        'enter_two_factor_code' => 'Please enter your two-factor authentication code.',
-        'please_enroll'         => 'Please enroll a device in two-factor authentication.',
+        'already_enrolled'      => 'Ihr Gerät ist bereits eingeschrieben.',
+        'success'               => 'Sie haben sich erfolgreich eingeloggt.',
+        'code_required'         => 'Zwei-Faktor-Code ist erforderlich.',
+        'invalid_code'          => 'Zwei-Faktor-Code ist ungültig.',
+        'enter_two_factor_code' => 'Bitte geben Sie Ihren Zwei-Faktor-Authentifizierungscode ein.',
+        'please_enroll'         => 'Bitte registrieren Sie ein Gerät für die Zwei-Faktor-Authentifizierung.',
     ),
 
     'signin' => array(
-        'error'   => 'There was a problem while trying to log you in, please try again.',
-        'success' => 'You have successfully logged in.',
+        'error'   => 'Bei der Anmeldung ist ein Problem aufgetreten, bitte versuchen Sie es erneut.',
+        'success' => 'Sie haben sich erfolgreich eingeloggt.',
     ),
 
     'logout' => array(
-        'error'   => 'There was a problem while trying to log you out, please try again.',
-        'success' => 'You have successfully logged out.',
+        'error'   => 'Beim Ausloggen ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
+        'success' => 'Sie haben sich erfolgreich abgemeldet.',
     ),
 
     'signup' => array(
-        'error'   => 'There was a problem while trying to create your account, please try again.',
-        'success' => 'Account sucessfully created.',
+        'error'   => 'Bei der Erstellung Ihres Kontos ist ein Problem aufgetreten, bitte versuchen Sie es erneut.',
+        'success' => 'Die Erstellung des Kontos war erfolgreich.',
     ),
 
     'forgot-password' => array(
-        'error'   => 'There was a problem while trying to get a reset password code, please try again.',
-        'success' => 'If that email address exists in our system, a password recovery email has been sent.',
+        'error'   => 'Beim abrufen des Codes zur Passwortzurücksetzung ist ein Fehler aufgetreten, bitte versuchen sie es erneut.',
+        'success' => 'Wenn diese E-Mail-Adresse in unserem System existiert, wurde eine E-Mail zum Wiederherstellen des Passworts gesendet.',
     ),
 
     'forgot-password-confirm' => array(
-        'error'   => 'There was a problem while trying to reset your password, please try again.',
-        'success' => 'Your password has been successfully reset.',
+        'error'   => 'Beim zurücksetzen Ihres Passworts ist ein Fehler aufgetreten, bitte versuchen sie es erneut.',
+        'success' => 'Ihr Passwort wurde erfolgreich zurückgesetzt.',
     ),
 
 
