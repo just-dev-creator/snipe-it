@@ -2,27 +2,27 @@
 
 return array(
 
-    'deleted' => 'Deleted supplier',
-    'does_not_exist' => 'Supplier does not exist.',
+    'deleted' => 'Gelöschter Lieferant',
+    'does_not_exist' => 'Lieferant ist nicht vorhanden.',
 
 
     'create' => array(
-        'error'   => 'Supplier was not created, please try again.',
-        'success' => 'Supplier created successfully.'
+        'error'   => 'Lieferant wurde nicht erstellt, bitte versuchen Sie es erneut.',
+        'success' => 'Lieferant wurde erfolgreich erstellt.'
     ),
 
     'update' => array(
-        'error'   => 'Supplier was not updated, please try again',
-        'success' => 'Supplier updated successfully.'
+        'error'   => 'Lieferant wurde nicht bearbeitet, bitte versuchen Sie es erneut',
+        'success' => 'Lieferant wurde erfolgreich bearbeitet.'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this supplier?',
-        'error'   => 'There was an issue deleting the supplier. Please try again.',
-        'success' => 'Supplier was deleted successfully.',
-        'assoc_assets'	 => 'This supplier is currently associated with :asset_count asset(s) and cannot be deleted. Please update your assets to no longer reference this supplier and try again. ',
-        'assoc_licenses'	 => 'This supplier is currently associated with :licenses_count licences(s) and cannot be deleted. Please update your licenses to no longer reference this supplier and try again. ',
-        'assoc_maintenances'	 => 'This supplier is currently associated with :asset_maintenances_count asset maintenances(s) and cannot be deleted. Please update your asset maintenances to no longer reference this supplier and try again. ',
+        'confirm'   => 'Sind Sie sicher, dass Sie diesen Lieferanten löschen möchten?',
+        'error'   => 'Beim löschen des Lieferanten ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
+        'success' => 'Lieferant wurde erfolgreich gelöscht.',
+        'assoc_assets'	 => 'Dieser Lieferant ist derzeit :asset_count Asset(s) zugeordnet und kann nicht gelöscht werden. Bitte aktualisieren Sie Ihre Assets so, dass sie nicht mehr auf diesen Lieferant verweisen und versuchen Sie es erneut. ',
+        'assoc_licenses'	 => 'Dieser Lieferant ist derzeit mit :licenses_count Lizenze(n) verknüpft und kann nicht gelöscht werden. Bitte aktualisieren Sie Ihre Lizenzen so, dass sie nicht mehr auf diesen Lieferant verweisen und versuchen Sie es erneut. ',
+        'assoc_maintenances'	 => 'Diese Lieferant ist derzeit mindestens einem Modell zugeordnet und kann nicht gelöscht werden. Bitte aktualisieren Sie Ihre Modelle, um nicht mehr auf diesen Lieferant zu verweisen und versuchen Sie es erneut. ',
     )
 
 );
