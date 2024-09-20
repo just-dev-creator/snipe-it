@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'info'   => 'Select the options you want for your asset report.',
-    'deleted_user' => 'Deleted user',
-    'send_reminder' => 'Send reminder',
-    'reminder_sent' => 'Reminder sent',
-    'acceptance_deleted' => 'Acceptance request deleted',
-    'acceptance_request' => 'Acceptance request',
+    'info'   => 'Wähle eine Option für deinen Asset Bericht.',
+    'deleted_user' => 'Gelöschter Benutzer',
+    'send_reminder' => 'Erinnerung senden',
+    'reminder_sent' => 'Erinnerung gesendet',
+    'acceptance_deleted' => 'Akzeptanzanfrage gelöscht',
+    'acceptance_request' => 'Akzeptierungsanfrage',
     'custom_export' => [
-        'user_address' => 'User Address',
-        'user_city' => 'User City',
-        'user_state' => 'User State',
-        'user_country' => 'User Country',
-        'user_zip' => 'User Zip'
+        'user_address' => 'Adressinformation',
+        'user_city' => 'Stadt des Benuzers',
+        'user_state' => 'Stadt des Benutzers',
+        'user_country' => 'Land des Benutzers',
+        'user_zip' => 'Postleitzahl des Benutzers'
     ]
 ];
