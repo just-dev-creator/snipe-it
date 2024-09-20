@@ -2,21 +2,21 @@
 
 return array(
 
-    'does_not_exist' => 'Department does not exist.',
-    'department_already_exists' => 'A department already exists with that name at this company location. Or choose a more specific name for this department. ',
-    'assoc_users'	 => 'This department is currently associated with at least one user and cannot be deleted. Please update your users to no longer reference this department and try again. ',
+    'does_not_exist' => 'Diese Abteilung existiert nicht.',
+    'department_already_exists' => 'An diesem Firmenstandort existiert bereits eine Abteilung mit diesem Namen. Oder wählen Sie einen spezifischeren Namen für diese Abteilung. ',
+    'assoc_users'	 => 'Diese Abteilung ist im Moment mit mindestens einem Benutzer verknüpft und kann nicht gelöscht werden. Bitte Benutzer aktualisieren, so dass diese Abteilung nicht mehr verknüpft ist und erneut versuchen. ',
     'create' => array(
-        'error'   => 'Department was not created, please try again.',
-        'success' => 'Department created successfully.'
+        'error'   => 'Abteilung wurde nicht erstellt. Bitte versuchen Sie es erneut.',
+        'success' => 'Abteilung wurde erfolgreich erstellt.'
     ),
     'update' => array(
-        'error'   => 'Department was not updated, please try again',
-        'success' => 'Department updated successfully.'
+        'error'   => 'Abteilung wurde nicht aktualisiert. Bitte versuchen Sie es erneut',
+        'success' => 'Abteilung wurde erfolgreich aktualisiert.'
     ),
     'delete' => array(
-        'confirm'   	=> 'Are you sure you wish to delete this department?',
-        'error'   => 'There was an issue deleting the department. Please try again.',
-        'success' => 'The department was deleted successfully.'
+        'confirm'   	=> 'Sind Sie sicher, dass Sie diese Abteilung löschen möchten?',
+        'error'   => 'Beim Löschen der Abteilung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
+        'success' => 'Die Abteilung wurde erfolgreich gelöscht.'
     )
 
 );
