@@ -1,12 +1,12 @@
 <?php
 
 return array(
-    'checkout'                          => 'Checkout Consumable to User',
-    'consumable_name'                   => 'Consumable Name',
-    'create'                            => 'Create Consumable',
-    'item_no'                           => 'Item No.',
-    'remaining' 			            => 'Remaining',
-    'total' 			                => 'Total',
-    'update'                            => 'Update Consumable',
-    'inventory_warning'                 => 'The inventory of this consumable is below the minimum amount of :min_count',
+    'checkout'                          => 'Verbrauchsmaterial an Benutzer ausgeben',
+    'consumable_name'                   => 'Name des Verbrauchsmaterials',
+    'create'                            => 'Verbrauchsmaterial erstellen',
+    'item_no'                           => 'Artikel Nr.',
+    'remaining' 			            => 'Verbleibend',
+    'total' 			                => 'Gesamt',
+    'update'                            => 'Verbrauchsmaterial bearbeiten',
+    'inventory_warning'                 => 'Der Bestand dieses Verbrauchsmaterials liegt unter der Mindestmenge von :min_count',
 );
