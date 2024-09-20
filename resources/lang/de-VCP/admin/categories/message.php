@@ -2,25 +2,25 @@
 
 return array(
 
-    'does_not_exist' => 'Category does not exist.',
-    'assoc_models'	 => 'This category is currently associated with at least one model and cannot be deleted. Please update your models to no longer reference this category and try again. ',
-    'assoc_items'	 => 'This category is currently associated with at least one :asset_type and cannot be deleted. Please update your :asset_type  to no longer reference this category and try again. ',
+    'does_not_exist' => 'Diese Kategorie existiert nicht.',
+    'assoc_models'	 => 'Diese Kategorie kann nicht gelöscht werden, da sie bereits einem Modell zugewiesen ist. Bitte entfernen Sie diese Kategorie von Ihren Modellen und versuchen Sie es erneut. ',
+    'assoc_items'	 => 'Diese Kategorie kann nicht gelöscht werden da sie bereits mit einem :asset_type verbunden ist. Bitte trennen Sie diese Kategorie von Ihrem :asset_type und versuchen Sie es erneut. ',
 
     'create' => array(
-        'error'   => 'Category was not created, please try again.',
-        'success' => 'Category created successfully.'
+        'error'   => 'Die Kategorie konnte nicht erstellt werden, bitte versuchen Sie es erneut.',
+        'success' => 'Die Kategorie wurde erfolgreich erstellt.'
     ),
 
     'update' => array(
-        'error'   => 'Category was not updated, please try again',
-        'success' => 'Category updated successfully.',
-        'cannot_change_category_type'   => 'You cannot change the category type once it has been created',
+        'error'   => 'Die Kategorie konnte nicht aktualisiert werden, bitte versuchen Sie es erneut',
+        'success' => 'Die Kategorie wurde erfolgreich aktualisiert.',
+        'cannot_change_category_type'   => 'Sie können den Kategorietyp nicht ändern, nachdem er erstellt wurde',
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this category?',
-        'error'   => 'There was an issue deleting the category. Please try again.',
-        'success' => 'The category was deleted successfully.'
+        'confirm'   => 'Sind Sie sicher, dass Sie diese Kategorie löschen wollen?',
+        'error'   => 'Beim Löschen der Kategorie ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.',
+        'success' => 'Die Kategorie wurde erfolgreich gelöscht.'
     )
 
 );
