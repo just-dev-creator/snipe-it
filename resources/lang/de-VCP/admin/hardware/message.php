@@ -2,95 +2,95 @@
 
 return [
 
-    'undeployable' 		=> '<strong>Warning: </strong> This asset has been marked as currently undeployable. If this status has changed, please update the asset status.',
-    'does_not_exist' 	=> 'Asset does not exist.',
-    'does_not_exist_var'=> 'Asset with tag :asset_tag not found.',
-    'no_tag' 	        => 'No asset tag provided.',
-    'does_not_exist_or_not_requestable' => 'That asset does not exist or is not requestable.',
-    'assoc_users'	 	=> 'This asset is currently checked out to a user and cannot be deleted. Please check the asset in first, and then try deleting again. ',
-    'warning_audit_date_mismatch' 	=> 'This asset\'s next audit date (:next_audit_date) is before the last audit date (:last_audit_date). Please update the next audit date.',
+    'undeployable' 		=> '<b>Warnung:</b> Dieses Asset wurde als nicht zur Herausgabe bereit markiert. Falls sich dieser Status geändert hat, aktualisieren Sie bitte den Asset Status.',
+    'does_not_exist' 	=> 'Asset existiert nicht.',
+    'does_not_exist_var'=> 'Asset mit Tag :asset_tag nicht gefunden.',
+    'no_tag' 	        => 'Kein Asset Tag angegeben.',
+    'does_not_exist_or_not_requestable' => 'Dieses Asset existiert nicht oder kann nicht angefordert werden.',
+    'assoc_users'	 	=> 'Dieses Asset ist im Moment an einen Benutzer herausgegeben und kann nicht entfernt werden. Bitte buchen sie das Asset wieder ein und versuchen Sie dann erneut es zu entfernen. ',
+    'warning_audit_date_mismatch' 	=> 'Das nächste Prüfdatum dieses Assets (:next_audit_date) liegt vor dem letzten Prüfungsdatum (:last_audit_date). Bitte aktualisieren Sie daher das nächste Prüfungsdatum.',
 
     'create' => [
-        'error'   		=> 'Asset was not created, please try again. :(',
-        'success' 		=> 'Asset created successfully. :)',
-        'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
+        'error'   		=> 'Asset wurde nicht erstellt. Bitte versuchen Sie es erneut. :(',
+        'success' 		=> 'Asset wurde erfolgreich erstellt. :)',
+        'success_linked' => 'Asset mit Tag :tag wurde erfolgreich erstellt. <strong><a href=":link" style="color: white;">Klicken Sie hier, um</a></strong> anzuzeigen.',
     ],
 
     'update' => [
-        'error'   			=> 'Asset was not updated, please try again',
-        'success' 			=> 'Asset updated successfully.',
-        'encrypted_warning' => 'Asset updated successfully, but encrypted custom fields were not due to permissions',
-        'nothing_updated'	=>  'No fields were selected, so nothing was updated.',
-        'no_assets_selected'  =>  'No assets were selected, so nothing was updated.',
-        'assets_do_not_exist_or_are_invalid' => 'Selected assets cannot be updated.',
+        'error'   			=> 'Asset wurde nicht aktualisiert. Bitte versuchen Sie es erneut',
+        'success' 			=> 'Asset wurde erfolgreich aktualisiert.',
+        'encrypted_warning' => 'Das Asset wurde erfolgreich aktualisiert, aber verschlüsselte benutzerdefinierte Felder wurden aufgrund von Berechtigungen nicht aktualisiert',
+        'nothing_updated'	=>  'Es wurden keine Felder ausgewählt, somit wurde auch nichts aktualisiert.',
+        'no_assets_selected'  =>  'Es wurden keine Assets ausgewählt, somit wurde auch nichts aktualisiert.',
+        'assets_do_not_exist_or_are_invalid' => 'Ausgewählte Assets können nicht aktualisiert werden.',
     ],
 
     'restore' => [
-        'error'   		=> 'Asset was not restored, please try again',
-        'success' 		=> 'Asset restored successfully.',
-        'bulk_success' 		=> 'Asset restored successfully.',
-        'nothing_updated'   => 'No assets were selected, so nothing was restored.', 
+        'error'   		=> 'Asset wurde nicht wiederhergestellt, bitte versuchen Sie es noch einmal',
+        'success' 		=> 'Asset erfolgreich wiederhergestellt.',
+        'bulk_success' 		=> 'Asset erfolgreich wiederhergestellt.',
+        'nothing_updated'   => 'Es wurden keine Assets ausgewählt, also wurde nichts wiederhergestellt.', 
     ],
 
     'audit' => [
-        'error'   		=> 'Asset audit unsuccessful: :error ',
-        'success' 		=> 'Asset audit successfully logged.',
+        'error'   		=> 'Asset Audit fehlgeschlagen: :error ',
+        'success' 		=> 'Asset-Audit erfolgreich protokolliert.',
     ],
 
 
     'deletefile' => [
-        'error'   => 'File not deleted. Please try again.',
-        'success' => 'File successfully deleted.',
+        'error'   => 'Datei wurde nicht gelöscht. Bitte versuchen Sie es erneut.',
+        'success' => 'Datei erfolgreich gelöscht.',
     ],
 
     'upload' => [
-        'error'   => 'File(s) not uploaded. Please try again.',
-        'success' => 'File(s) successfully uploaded.',
-        'nofiles' => 'You did not select any files for upload, or the file you are trying to upload is too large',
-        'invalidfiles' => 'One or more of your files is too large or is a filetype that is not allowed. Allowed filetypes are png, gif, jpg, doc, docx, pdf, and txt.',
+        'error'   => 'Datei(en) wurde(n) nicht hochgeladen. Bitte versuchen Sie es erneut.',
+        'success' => 'Datei(en) erfolgreich hochgeladen.',
+        'nofiles' => 'Es wurde keine Datei zum Hochladen ausgewählt, oder die Datei ist zu groß',
+        'invalidfiles' => 'Eine oder mehrere Ihrer Dateien sind zu groß oder deren Dateityp ist nicht zugelassen. Zugelassene Dateitypen sind png, gif, jpg, doc, docx, pdf, und txt.',
     ],
 
     'import' => [
-        'import_button'         => 'Process Import',
-        'error'                 => 'Some items did not import correctly.',
-        'errorDetail'           => 'The following Items were not imported because of errors.',
-        'success'               => 'Your file has been imported',
-        'file_delete_success'   => 'Your file has been been successfully deleted',
-        'file_delete_error'      => 'The file was unable to be deleted',
-        'file_missing' => 'The file selected is missing',
-        'file_already_deleted' => 'The file selected was already deleted',
-        'header_row_has_malformed_characters' => 'One or more attributes in the header row contain malformed UTF-8 characters',
-        'content_row_has_malformed_characters' => 'One or more attributes in the first row of content contain malformed UTF-8 characters',
+        'import_button'         => 'Prozess Import',
+        'error'                 => 'Einige Elemente wurden nicht korrekt importiert.',
+        'errorDetail'           => 'Die folgenden Elemente wurden aufgrund von Fehlern nicht importiert.',
+        'success'               => 'Ihre Datei wurde importiert',
+        'file_delete_success'   => 'Die Datei wurde erfolgreich gelöscht',
+        'file_delete_error'      => 'Die Datei konnte nicht gelöscht werden',
+        'file_missing' => 'Die ausgewählte Datei fehlt',
+        'file_already_deleted' => 'Die ausgewählte Datei wurde bereits gelöscht',
+        'header_row_has_malformed_characters' => 'Ein oder mehrere Attribute in der Kopfzeile enthalten fehlerhafte UTF-8 Zeichen',
+        'content_row_has_malformed_characters' => 'Ein oder mehrere Attribute in der ersten Zeile des Inhalts enthalten fehlerhafte UTF-8-Zeichen',
     ],
 
 
     'delete' => [
-        'confirm'   	=> 'Are you sure you wish to delete this asset?',
-        'error'   		=> 'There was an issue deleting the asset. Please try again.',
-        'nothing_updated'   => 'No assets were selected, so nothing was deleted.',
-        'success' 		=> 'The asset was deleted successfully.',
+        'confirm'   	=> 'Sind Sie sicher, dass Sie dieses Asset entfernen möchten?',
+        'error'   		=> 'Beim Entfernen dieses Assets ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
+        'nothing_updated'   => 'Es wurden keine Assets ausgewählt, somit wurde auch nichts gelöscht.',
+        'success' 		=> 'Dieses Asset wurde erfolgreich entfernt.',
     ],
 
     'checkout' => [
-        'error'   		=> 'Asset was not checked out, please try again',
-        'success' 		=> 'Asset checked out successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.',
-        'not_available' => 'That asset is not available for checkout!',
-        'no_assets_selected' => 'You must select at least one asset from the list',
+        'error'   		=> 'Asset konnte nicht herausgegeben werden. Bitte versuchen Sie es erneut',
+        'success' 		=> 'Asset wurde erfolgreich herausgegeben.',
+        'user_does_not_exist' => 'Dieser Benutzer existiert nicht. Bitte versuchen Sie es erneut.',
+        'not_available' => 'Dieses Asset kann nicht herausgegeben werden!',
+        'no_assets_selected' => 'Sie müssen mindestens ein Asset aus der Liste auswählen',
     ],
 
     'checkin' => [
-        'error'   		=> 'Asset was not checked in, please try again',
-        'success' 		=> 'Asset checked in successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.',
-        'already_checked_in'  => 'That asset is already checked in.',
+        'error'   		=> 'Asset konnte nicht zurückgenommen werden. Bitte versuchen Sie es erneut',
+        'success' 		=> 'Asset wurde erfolgreich zurückgenommen.',
+        'user_does_not_exist' => 'Dieser Benutzer existiert nicht. Bitte versuchen Sie es erneut.',
+        'already_checked_in'  => 'Dieses Asset ist bereits zurückgenommen.',
 
     ],
 
     'requests' => [
-        'error'   		=> 'Asset was not requested, please try again',
-        'success' 		=> 'Asset requested successfully.',
-        'canceled'      => 'Checkout request successfully canceled',
+        'error'   		=> 'Das Asset wurde nicht angefordert, bitte versuchen Sie es erneut',
+        'success' 		=> 'Gegenstand erfolgreich angefordert.',
+        'canceled'      => 'Herausgeben erfolgreich abgebrochen',
     ],
 
 ];
