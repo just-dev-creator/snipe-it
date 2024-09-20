@@ -2,41 +2,41 @@
 
 return array(
 
-    'does_not_exist' => 'The accessory [:id] does not exist.',
-    'not_found' => 'That accessory was not found.',
-    'assoc_users'	 => 'This accessory currently has :count items checked out to users. Please check in the accessories and and try again. ',
+    'does_not_exist' => 'Das Zubehör [:id] existiert nicht.',
+    'not_found' => 'Dieses Zubehör wurde nicht gefunden.',
+    'assoc_users'	 => 'Dieses Zubehör ist derzeit an :count Benutzern zur Verwendung ausgegeben worden. Bitte buchen Sie das Zubehör wieder ein und versuchen es dann erneut. ',
 
     'create' => array(
-        'error'   => 'The accessory was not created, please try again.',
-        'success' => 'The accessory was successfully created.'
+        'error'   => 'Zubehör wurde nicht erzeugt, bitte versuchen Sie es erneut.',
+        'success' => 'Zubehör erfolgreich angelegt.'
     ),
 
     'update' => array(
-        'error'   => 'The accessory was not updated, please try again',
-        'success' => 'The accessory was updated successfully.'
+        'error'   => 'Zubehör wurde nicht aktualisiert, bitte versuchen Sie es erneut',
+        'success' => 'Zubehör wurde erfolgreich aktualisiert.'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this accessory?',
-        'error'   => 'There was an issue deleting the accessory. Please try again.',
-        'success' => 'The accessory was deleted successfully.'
+        'confirm'   => 'Sind Sie sicher, dass Sie dieses Zubehör löschen möchten?',
+        'error'   => 'Beim Löschen dieses Zubehörs ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.',
+        'success' => 'Das Zubehör wurde erfolgreich gelöscht.'
     ),
 
      'checkout' => array(
-        'error'   		=> 'Accessory was not checked out, please try again',
-        'success' 		=> 'Accessory checked out successfully.',
-        'unavailable'   => 'Accessory is not available for checkout. Check quantity available',
-        'user_does_not_exist' => 'That user is invalid. Please try again.',
+        'error'   		=> 'Zubehör konnte nicht herausgegeben werden. Bitte versuchen Sie es erneut',
+        'success' 		=> 'Zubehör erfolgreich herausgegeben.',
+        'unavailable'   => 'Zubehör ist nicht verfügbar, um herausgegeben zu werden. Prüfen Sie die verfügbare Menge',
+        'user_does_not_exist' => 'Dieser Benutzer existiert nicht. Bitte versuchen Sie es erneut.',
          'checkout_qty' => array(
-            'lte'  => 'There is currently only one available accessory of this type, and you are trying to check out :checkout_qty. Please adjust the checkout quantity or the total stock of this accessory and try again.|There are :number_currently_remaining total available accessories, and you are trying to check out :checkout_qty. Please adjust the checkout quantity or the total stock of this accessory and try again.',
+            'lte'  => 'Derzeit ist nur ein Zubehör dieses Typs verfügbar, und Sie versuchen :checkout_qty herauszugeben. Bitte passen Sie die Herausgabe-Menge oder den Gesamtbestand des Zubehörs an, und versuchen Sie es erneut. Es gibt :number_currently_remaining insgesamt verfügbare Zubehör, und Sie versuchen, :checkout_qty herauszugeben. Bitte passen Sie die Herausgabe-Menge oder den Gesamtbestand des Zubehörs an und versuchen Sie es erneut.',
             ),
            
     ),
 
     'checkin' => array(
-        'error'   		=> 'Accessory was not checked in, please try again',
-        'success' 		=> 'Accessory checked in successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.'
+        'error'   		=> 'Das Zubehör wurde nicht erfolgreich zurückgenommen. Bitte versuchen Sie es erneut',
+        'success' 		=> 'Zubehör erfolgreich zurückgenommen.',
+        'user_does_not_exist' => 'Dieser Benutzer existiert nicht. Bitte versuchen Sie es erneut.'
     )
 
 
