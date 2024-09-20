@@ -3,56 +3,56 @@
 return array(
 
     'field' => array(
-        'invalid'   => 'That field does not exist.',
-        'already_added'   => 'Field already added',
-        'none_selected'   => 'No field selected',
+        'invalid'   => 'Dieses Feld existiert nicht.',
+        'already_added'   => 'Feld wurde bereits hinzugefügt',
+        'none_selected'   => 'Kein Feld ausgewählt',
 
         'create' => array(
-            'error'   => 'Field was not created, please try again.',
-            'success' => 'Field created successfully.',
-            'assoc_success' => 'Field successfully added to fieldset.'
+            'error'   => 'Feld wurde nicht erstellt. Bitte versuchen Sie es erneut.',
+            'success' => 'Feld wurde erfolgreich erstellt.',
+            'assoc_success' => 'Feld wurde erfolgreich zum Feldsatz hinzugefügt.'
         ),
 
         'update' => array(
-            'error'   => 'Field was not updated, please try again',
-            'success' => 'Field updated successfully.'
+            'error'   => 'Feld wurde nicht aktualisiert. Bitte versuchen Sie es erneut',
+            'success' => 'Feld wurde erfolgreich aktualisiert.'
         ),
 
         'delete' => array(
-            'confirm'   	=> 'Are you sure you wish to delete this field?',
-            'error'   => 'There was an issue deleting the field. Please try again.',
-            'success' => 'The field was deleted successfully.',
-            'in_use'   => 'Field is still in use.',
+            'confirm'   	=> 'Sind Sie sicher, dass Sie dieses Feld löschen möchten?',
+            'error'   => 'Beim Löschen des Felds ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
+            'success' => 'Das Feld wurde erfolgreich gelöscht.',
+            'in_use'   => 'Dieses Feld wird derzeit noch verwendet.',
         )
 
     ),
 
     'fieldset' => array(
 
-        'does_not_exist' => 'Fieldset does not exist',
+        'does_not_exist' => 'Feldsatz existiert nicht',
 
         'create' => array(
-            'error'   => 'Fieldset was not created, please try again.',
-            'success' => 'Fieldset created successfully.'
+            'error'   => 'Feldsatz wurde nicht erstellt. Bitte versuchen Sie es erneut.',
+            'success' => 'Feldsatz wurde erfolgreich erstellt.'
         ),
 
         'update' => array(
-            'error'   => 'Fieldset was not updated, please try again',
-            'success' => 'Fieldset updated successfully.'
+            'error'   => 'Feldsatz wurde nicht aktualisiert. Bitte versuchen Sie es erneut.',
+            'success' => 'Feldsatz wurde erfolgreich aktualisiert.'
         ),
 
         'delete' => array(
-            'confirm'   	=> 'Are you sure you wish to delete this fieldset?',
-            'error'   => 'There was an issue deleting the fieldset. Please try again.',
-            'success' => 'The fieldset was deleted successfully.',
-            'in_use'   => 'Fieldset is still in use.',
+            'confirm'   	=> 'Sind Sie sicher, dass Sie diesen Feldsatz löschen möchten?',
+            'error'   => 'Beim Löschen des Feldsatzes ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
+            'success' => 'Der Feldsatz wurde erfolgreich gelöscht.',
+            'in_use'   => 'Dieser Feldsatz wird derzeit noch verwendet.',
         )
 
     ),
 
     'fieldset_default_value' => array(
 
-        'error' => 'Error validating default fieldset values.',
+        'error' => 'Fehler beim Überprüfen der Standardfeldsatzwerte.',
 
     ),
 
