@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'component_name'                  => 'Component Name',
-    'checkin'                             => 'Checkin Component',
-    'checkout'                             => 'Checkout Component',
-    'cost'				=> 'Purchase Cost',
-    'create'                             => 'Create Component',
-    'edit'                             => 'Edit Component',
-    'date'					=> 'Purchase Date',
-    'order'					=> 'Order Number',
-    'remaining' 			             => 'Remaining',
-    'total' 			                 => 'Total',
-    'update'                            => 'Update Component',
-    'checkin_limit'            => 'Amount checked in must be equal to or less than :assigned_qty'
+    'component_name'                  => 'Komponentenname',
+    'checkin'                             => 'Komponente einchecken',
+    'checkout'                             => 'Komponente herausgeben',
+    'cost'				=> 'Einkaufspreis',
+    'create'                             => 'Komponente erstellen',
+    'edit'                             => 'Komponente bearbeiten',
+    'date'					=> 'Kaufdatum',
+    'order'					=> 'Auftragsnummer',
+    'remaining' 			             => 'Verbleibend',
+    'total' 			                 => 'Gesamt',
+    'update'                            => 'Komponente aktualisieren',
+    'checkin_limit'            => 'Die angegebene Menge muss gleich oder kleiner sein als :assigned_qty'
 );
