@@ -3,9 +3,9 @@
 return [
 
     'id'      => 'ID',
-    'months'   => 'Months',
-    'term'   => 'Term',
+    'months'   => 'Monate',
+    'term'   => 'Laufzeit',
     'title'      => 'Name ',
-    'depreciation_min' => 'Floor Value',
+    'depreciation_min' => 'Minimalwert',
 
 ];
