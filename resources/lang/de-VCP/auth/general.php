@@ -1,18 +1,18 @@
 <?php
 
 return [
-    'send_password_link'	        => 'Send Password Reset Link',
-    'email_reset_password'			=> 'Email Password Reset',
-    'reset_password'			    => 'Reset Password',
-    'saml_login'                    => 'Login via SAML',
+    'send_password_link'	        => 'E-Mail zum Zurücksetzen des Passworts senden',
+    'email_reset_password'			=> 'Passwort zurücksetzen',
+    'reset_password'			    => 'Passwort zurücksetzen',
+    'saml_login'                    => 'Anmelden über SAML',
     'login'                         => 'Login',
-    'login_prompt'                  => 'Please Login',
-    'forgot_password'               => 'I forgot my password',
-    'ldap_reset_password'           => 'Please click here to reset your LDAP password',
-    'remember_me'                   => 'Remember Me',
-    'username_help_top'                 => 'Enter your <strong>username</strong> to be emailed a password reset link.',
-    'username_help_bottom'          => 'Your username and email address <em>may</em> be the same, but may not be, depending on your configuration. If you cannot remember your username, contact your administrator. <br><br><strong>Usernames without an associated email address will not be emailed a password reset link.</strong> ',
-    'google_login'                  => 'Login with Google Workspace',
-    'google_login_failed'           => 'Google Login failed, please try again.',
+    'login_prompt'                  => 'Melden Sie sich bitte an',
+    'forgot_password'               => 'Ich habe mein Passwort vergessen',
+    'ldap_reset_password'           => 'Klicken Sie hier, um Ihr LDAP-Kennwort zurückzusetzen.',
+    'remember_me'                   => 'Angemeldet bleiben',
+    'username_help_top'                 => '<strong>Benutzernamen</strong> eingeben, um einen Link zum Zurücksetzen des Passwortes per E-Mail zu erhalten.',
+    'username_help_bottom'          => 'Abhängig von der Konfiguration, <em>kann</em> der Benutzername identisch mit ihrer E-Mailadresse sein. Falls Sie ihren Benutzernamen vergessen haben, kontaktieren Sie ihren Administrator.<br><br><strong>Benutzernamen ohne zugeordnete E-Mailadresse erhalten keine E-Mail zum Zurücksetzen des Passwortes.</strong> ',
+    'google_login'                  => 'Mit Google Workspace anmelden',
+    'google_login_failed'           => 'Google-Anmeldung fehlgeschlagen, bitte versuchen Sie es erneut.',
 ];
 
