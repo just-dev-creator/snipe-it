@@ -3,47 +3,47 @@
 return [
 
     'update' => [
-        'error'                 => 'An error has occurred while updating. ',
-        'success'               => 'Settings updated successfully.',
+        'error'                 => 'Während der Aktualisierung ist ein Fehler aufgetreten. ',
+        'success'               => 'Die Einstellungen wurden erfolgreich aktualisiert.',
     ],
     'backup' => [
-        'delete_confirm'        => 'Are you sure you would like to delete this backup file? This action cannot be undone. ',
-        'file_deleted'          => 'The backup file was successfully deleted. ',
-        'generated'             => 'A new backup file was successfully created.',
-        'file_not_found'        => 'That backup file could not be found on the server.',
-        'restore_warning'       => 'Yes, restore it. I acknowledge that this will overwrite any existing data currently in the database. This will also log out all of your existing users (including you).',
-        'restore_confirm'       => 'Are you sure you wish to restore your database from :filename?'
+        'delete_confirm'        => 'Backup Datei wirklich löschen? Aktion kann nicht rückgängig gemacht werden. ',
+        'file_deleted'          => 'Backup Datei erfolgreich gelöscht. ',
+        'generated'             => 'Backup Datei erfolgreich erstellt.',
+        'file_not_found'        => 'Backup Datei konnte nicht gefunden werden.',
+        'restore_warning'       => 'Ja, wiederherstellen. Ich bestätige, dass dies alle vorhandenen Daten überschreibt, die derzeit in der Datenbank vorhanden sind. Diese Aktion wird auch alle bestehenden Benutzer abmelden (einschließlich Ihnen).',
+        'restore_confirm'       => 'Sind Sie sicher, dass Sie Ihre Datenbank aus :filename wiederherstellen möchten?'
     ],
     'restore' => [
-        'success'               => 'Your system backup has been restored. Please log in again.'
+        'success'               => 'Ihr Systembackup wurde wiederhergestellt. Bitte melden Sie sich erneut an.'
     ],
     'purge' => [
-        'error'     => 'An error has occurred while purging. ',
-        'validation_failed'     => 'Your purge confirmation is incorrect. Please type the word "DELETE" in the confirmation box.',
-        'success'               => 'Deleted records successfully purged.',
+        'error'     => 'Beim Bereinigen ist ein Fehler augetreten. ',
+        'validation_failed'     => 'Falsche Bereinigungsbestätigung. Bitte geben Sie das Wort "DELETE" im Bestätigungsfeld ein.',
+        'success'               => 'Gelöschte Einträge erfolgreich bereinigt.',
     ],
     'mail' => [
-        'sending' => 'Sending Test Email...',
-        'success' => 'Mail sent!',
-        'error' => 'Mail could not be sent.',
-        'additional' => 'No additional error message provided. Check your mail settings and your app log.'
+        'sending' => 'Test E-Mail wird gesendet...',
+        'success' => 'Mail gesendet!',
+        'error' => 'E-Mail konnte nicht gesendet werden.',
+        'additional' => 'Keine zusätzliche Fehlermeldung vorhanden. Überprüfen Sie Ihre E-Mail-Einstellungen und Ihr App-Protokoll.'
     ],
     'ldap' => [
-        'testing' => 'Testing LDAP Connection, Binding & Query ...',
-        '500' => '500 Server Error. Please check your server logs for more information.',
-        'error' => 'Something went wrong :(',
-        'sync_success' => 'A sample of 10 users returned from the LDAP server based on your settings:',
-        'testing_authentication' => 'Testing LDAP Authentication...',
-        'authentication_success' => 'User authenticated against LDAP successfully!'
+        'testing' => 'Teste LDAP Verbindung, Binding & Abfrage ...',
+        '500' => '500 Serverfehler. Bitte überprüfen Sie Ihre Server-Logs für weitere Informationen.',
+        'error' => 'Etwas ist schiefgelaufen :(',
+        'sync_success' => 'Ein Beispiel von 10 Benutzern, die vom LDAP-Server basierend auf Ihren Einstellungen zurückgegeben wurden:',
+        'testing_authentication' => 'LDAP-Authentifizierung wird getestet...',
+        'authentication_success' => 'Benutzer wurde erfolgreich gegen LDAP authentifiziert!'
     ],
     'webhook' => [
-        'sending' => 'Sending :app test message...',
-        'success' => 'Your :webhook_name Integration works!',
-        'success_pt1' => 'Success! Check the ',
-        'success_pt2' => ' channel for your test message, and be sure to click SAVE below to store your settings.',
+        'sending' => ':app Testnachricht wird gesendet...',
+        'success' => 'Ihre :webhook_name Integration funktioniert!',
+        'success_pt1' => 'Erfolgreich! Überprüfen Sie den ',
+        'success_pt2' => ' Kanal für Ihre Testnachricht und klicken Sie auf Speichern, um Ihre Einstellungen zu speichern.',
         '500' => '500 Server Error.',
-        'error' => 'Something went wrong. :app responded with: :error_message',
-        'error_redirect' => 'ERROR: 301/302 :endpoint returns a redirect. For security reasons, we don’t follow redirects. Please use the actual endpoint.',
-        'error_misc' => 'Something went wrong. :( ',
+        'error' => 'Etwas ist schief gelaufen. :app antwortete mit: :error_message',
+        'error_redirect' => 'FEHLER: 301/302 :endpoint gibt eine Umleitung zurück. Aus Sicherheitsgründen folgen wir keinen Umleitungen. Bitte verwenden Sie den aktuellen Endpunkt.',
+        'error_misc' => 'Etwas ist schiefgelaufen. :( ',
     ]
 ];
