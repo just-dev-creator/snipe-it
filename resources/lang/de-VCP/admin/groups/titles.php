@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'about_groups_title'            => 'About Groups',
-    'about_groups'                  => 'Groups are used to generalize user permissions.',
-    'group_management' 	 	=> 'Group Management',
-    'create' 	 	 	    => 'Create New Group',
-    'update' 	 		        => 'Edit Group',
-    'group_name' 	 		=> 'Group Name',
-    'group_admin' 	 		=> 'Group Admin',
-    'allow' 	 			=> 'Allow',
-    'deny' 	 				=> 'Deny',
-    'permission'            => 'Permission',
-    'grant'                 => 'Grant',
-    'no_permissions'        => 'This group has no permissions.'
+    'about_groups_title'            => 'Über Gruppen',
+    'about_groups'                  => 'Gruppen werden verwendet, um die Benutzerberechtigungen zu verallgemeinern.',
+    'group_management' 	 	=> 'Gruppenverwaltung',
+    'create' 	 	 	    => 'Neue Gruppe erstellen',
+    'update' 	 		        => 'Gruppe bearbeiten',
+    'group_name' 	 		=> 'Gruppenname',
+    'group_admin' 	 		=> 'Gruppenadministrator',
+    'allow' 	 			=> 'Erlauben',
+    'deny' 	 				=> 'Nicht erlauben',
+    'permission'            => 'Berechtigung',
+    'grant'                 => 'Erlauben',
+    'no_permissions'        => 'Diese Gruppe hat keine Berechtigungen.'
 ];
