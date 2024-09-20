@@ -2,31 +2,31 @@
 
 return [
 
-    'does_not_exist' => 'Status Label does not exist.',
-    'deleted_label' => 'Deleted Status Label',
-    'assoc_assets'	 => 'This Status Label is currently associated with at least one Asset and cannot be deleted. Please update your assets to no longer reference this status and try again. ',
+    'does_not_exist' => 'Diese Statusbezeichnung existiert nicht.',
+    'deleted_label' => 'Gelöschte Statusbezeichnung',
+    'assoc_assets'	 => 'Auf diese Statusbezeichnung bezieht sich momentan mindestens ein Asset und kann daher nicht gelöscht werden. Bitte sorgen Sie dafür, dass sich kein Asset mehr auf diese Statusbezeichnung bezieht und versuchen Sie es erneut. ',
 
     'create' => [
-        'error'   => 'Status Label was not created, please try again.',
-        'success' => 'Status Label created successfully.',
+        'error'   => 'Statusbezeichnung wurde nicht erstellt. Bitte versuchen Sie es erneut.',
+        'success' => 'Statusbezeichnung wurde erfolgreich erstellt.',
     ],
 
     'update' => [
-        'error'   => 'Status Label was not updated, please try again',
-        'success' => 'Status Label updated successfully.',
+        'error'   => 'Statusbezeichnung wurde nicht aktualisiert. Bitte versuchen Sie es erneut.',
+        'success' => 'Statusbezeichnung wurde erfolgreich aktualisiert.',
     ],
 
     'delete' => [
-        'confirm'   => 'Are you sure you wish to delete this Status Label?',
-        'error'   => 'There was an issue deleting the Status Label. Please try again.',
-        'success' => 'The Status Label was deleted successfully.',
+        'confirm'   => 'Sind Sie sicher, dass Sie diese Statusbezeichnung löschen wollen?',
+        'error'   => 'Es trat ein Fehler beim Löschen der Statusbezeichnung auf. Bitte versuchen Sie es erneut.',
+        'success' => 'Die Statusbezeichnung wurde erfolgreich gelöscht.',
     ],
 
     'help' => [
-        'undeployable'   => 'These assets cannot be assigned to anyone.',
-        'deployable'   => 'These assets can be checked out. Once they are assigned, they will assume a meta status of <i class="fas fa-circle text-blue"></i> <strong>Deployed</strong>.',
-        'archived'   => 'These assets cannot be checked out, and will only show up in the Archived view. This is useful for retaining information about assets for budgeting/historic purposes but keeping them out of the day-to-day asset list.',
-        'pending'   => 'These assets can not yet be assigned to anyone, often used for items that are out for repair, but are expected to return to circulation.',
+        'undeployable'   => 'Diese Assets können niemandem zugeordnet werden.',
+        'deployable'   => 'Diese Assets können ausgecheckt werden. Sobald sie zugewiesen sind, nehmen sie den Meta-Status <i class="fas fa-circle text-blue"></i> <strong>Platziert</strong> an.',
+        'archived'   => 'Diese Assets können nicht ausgecheckt werden und erscheinen nur in der Ansicht "Archiviert". Dies ist nützlich, um Informationen zu Assets für Budgetierungs- / historische Zwecke beizubehalten, aber sie aus der täglichen Assetliste herauszuhalten.',
+        'pending'   => 'Diese Assets können vorübergehend niemandem zugewiesen werden. Wird häufig für Gegenstände verwendet, die in Reparatur sind, aber voraussichtlich in den Kreislauf zurückkehren werden.',
     ],
 
 ];
