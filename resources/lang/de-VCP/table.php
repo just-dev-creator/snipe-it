@@ -2,10 +2,10 @@
 
 return array(
 
-    'actions'	 	        => 'Actions',
-    'action' 		        => 'Action',
-    'by'      		        => 'By',
-    'item' 			        => 'Item',
-    'no_matching_records'   => 'No matching records found',
+    'actions'	 	        => 'Aktionen',
+    'action' 		        => 'Aktion',
+    'by'      		        => 'Von',
+    'item' 			        => 'Gegenstand',
+    'no_matching_records'   => 'Keine passenden Datensätze gefunden',
 
 );
